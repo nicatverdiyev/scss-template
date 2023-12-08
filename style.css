@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+  .col-lg-3 {
+    display: none;
+  }
+}
+.container {
+  margin-top: 50px;
+}
+
+.heading h1 {
+  font-size: 40px;
+  color: rgb(106, 100, 100);
+  transition: all 1s;
+  transform: scale(1);
+}
+.heading h1:hover {
+  box-shadow: 0 0 10px -2px rgb(60, 28, 91);
+  color: rgb(101, 101, 182);
+  transform: scale(1.02);
+}
+
+.image-1,
+.image-2 {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.image-1 img,
+.image-2 img {
+  transition: all 1s;
+  box-shadow: none;
+}
+.image-1 img:hover,
+.image-2 img:hover {
+  box-shadow: 0 0 10px -2px rgb(60, 28, 91);
+}
+
+.text-1 .text-one {
+  color: rgb(106, 100, 100);
+  transition: all 1s;
+  transform: scale(1);
+}
+.text-1 .text-one:hover {
+  box-shadow: 0 0 10px -2px rgb(60, 28, 91);
+  color: rgb(101, 101, 182);
+  transform: scale(1.02);
+}
+.text-1 .text-two {
+  margin-top: 50px;
+  color: rgb(106, 100, 100);
+  transition: all 1s;
+  transform: scale(1);
+}
+.text-1 .text-two:hover {
+  box-shadow: 0 0 10px -2px rgb(60, 28, 91);
+  color: rgb(101, 101, 182);
+  transform: scale(1.02);
+}
+
+.little-text {
+  color: rgb(106, 100, 100);
+  transition: all 1s;
+  transform: scale(1);
+}
+.little-text:hover {
+  box-shadow: 0 0 10px -2px rgb(60, 28, 91);
+  color: rgb(101, 101, 182);
+  transform: scale(1.02);
+}/*# sourceMappingURL=style.css.map */
